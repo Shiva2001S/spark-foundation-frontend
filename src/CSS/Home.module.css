@@ -1,0 +1,40 @@
+.par{
+    align-items: center;
+    text-align: center;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: black;
+}
+
+.head div {
+    color: red;
+}
+
+.foot{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    max-height: 90px;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background-color: black;
+    width: 98.8%;
+    bottom: 0;
+}
+
+.img {
+    object-fit: cover;
+    height: 90px;
+    width: 100%;
+}
+
+
+body{
+    background-color: rgb(241, 237, 237);
+}

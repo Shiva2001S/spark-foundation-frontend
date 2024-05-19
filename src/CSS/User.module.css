@@ -1,0 +1,10 @@
+.par{
+    padding: 20px;
+    cursor : pointer;
+}
+
+.but{
+    color: blue;
+    background-color: black;
+    cursor : pointer;
+}
